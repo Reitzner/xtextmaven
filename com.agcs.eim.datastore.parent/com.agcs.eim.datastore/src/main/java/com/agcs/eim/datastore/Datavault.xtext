@@ -1,0 +1,9 @@
+grammar com.agcs.eim.datastore.Datavault with org.eclipse.xtext.common.Terminals
+
+generate datavault "http://www.agcs.com/eim/datastore/Datavault"
+
+Model:
+	greetings+=Greeting*;
+	
+Greeting:
+	'Hello' name=ID '!';
