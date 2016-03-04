@@ -1,0 +1,5 @@
+**/target/
+**/xtext-gen/
+**/xtend-gen/
+**/.settings/
+
